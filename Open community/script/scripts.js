@@ -26,7 +26,6 @@ function aviso2() {
             window.location.href = "home.html"
         }
     })
-
 }
 
 

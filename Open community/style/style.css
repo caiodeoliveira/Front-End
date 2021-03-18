@@ -195,24 +195,29 @@ body {
 .adress_text:hover {
     transition: 200ms;
     color: rgb(4, 180, 4);
-    filter: brightness(90%);
+    filter: brightness(80%);
 }
 
 .name,
-.telefone {
+.telephone {
+    color: white;
+    background-color: rgb(46, 46, 46);
     width: 175px;
     height: 30px;
     border-radius: 10px;
 }
 
 .email,
-.endereço {
+.adress {
+    color: white;
+    background-color: rgb(46, 46, 46);
     width: 280px;
     height: 30px;
     border-radius: 10px;
 }
 
 #sex {
+    background-color: rgb(46, 46, 46);
     cursor: pointer;
     position: relative;
     bottom: 210px;
