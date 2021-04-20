@@ -25,4 +25,8 @@ function aviso2() {
         window.location.href = "https://www.braziljs.org/"
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 92223e5bd5950ec461b198b60f641b0f1217599a
