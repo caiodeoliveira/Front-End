@@ -25,6 +25,17 @@ body {
 
 .links li a {
     color: #444B59;
+    font-weight: 300;
     font-size: 100%;
     font-size: 1.25rem;
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #444B59;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 283px;
 }
