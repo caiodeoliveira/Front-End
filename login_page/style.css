@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 * {
     padding: 0;
     border: 0;
@@ -39,7 +40,7 @@ body {
 }
 
 .container h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-weight: 800;
     color: #444B59;
 }
