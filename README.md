@@ -7,7 +7,7 @@
 
 <h3> <img src="https://i.dlpng.com/static/png/6577858_preview.png" width="50px" align="center"/> Como testar as aplicações? </h3>
 
-<h3> Você pode testar utilizando a IDE Visual Studio Code(VsCode), Clique :point_right: <a href="https://code.visualstudio.com/download" target="_blank" > Visual Studio Code </a> :point_left: </h3>
+<h3> Você pode testar utilizando a IDE Visual Studio Code(VsCode), Clique:point_right:<a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>:point_left:</h3>
 
 <h4> Passos </h4>
 
