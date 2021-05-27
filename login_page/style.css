@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.contact {
+    color: #444B59;
+}
