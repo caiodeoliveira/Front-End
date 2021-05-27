@@ -11,6 +11,7 @@ body {
 }
 
 .links ul {
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: end;
