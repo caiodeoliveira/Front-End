@@ -59,5 +59,7 @@ body {
 .container .name {
     width: 250px;
     height: 25px;
+    padding: 24px, 32px, 24px, 32px;
+    border: #789ADE 1.5px solid;
     border-radius: 80px;
 }
