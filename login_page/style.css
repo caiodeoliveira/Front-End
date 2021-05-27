@@ -31,11 +31,21 @@ body {
 }
 
 .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    margin-top: 283px;
+    margin-left: 608px;
+}
+
+.container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #444B59;
+}
+
+.container label {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     color: #444B59;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin-top: 283px;
 }
