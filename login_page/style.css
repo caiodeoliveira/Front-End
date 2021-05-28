@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;ital,wght@1,300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 * {
     padding: 0;
@@ -64,9 +64,16 @@ body {
 
 .container2 input {
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    /* font-size: 1.75rem; */
+    font-weight: 400;
+    font-size: 1.5rem;
     color: #444B59;
+    background-color: #ffffffff;
+    width: 456px;
+    height: 40px;
+    padding: 24px 32px 24px 32px;
+    box-sizing: border-box;
+    border: 2px solid #789ADE;
+    border-radius: 80px;
 }
 
 .container3 {
@@ -86,6 +93,32 @@ body {
     font-size: 1.75rem;
     color: #444B59;
     margin: 16px 0;
+}
+
+.container3 input {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #444B59;
+    background-color: #ffffffff;
+    width: 640px;
+    height: 40px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    border: 2px solid #789ADE;
+    border-radius: 80px;
+    position: relative;
+}
+
+#inputCheck {
+    position: relative;
+    cursor: pointer;
+    padding-left: 28px;
+    line-height: 24px;
+    font-weight: 400;
+    min-height: 20px;
+    color: #939DA5
 }
 
 
