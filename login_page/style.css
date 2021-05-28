@@ -29,6 +29,37 @@ body {
     font-weight: 300;
     font-size: 100%;
     font-size: 1.25rem;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #444B59;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.contact:hover::after {
+    width: 100%;
+    transition: width 400ms ease-in-out;
+}
+
+.help::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #444B59;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.help:hover::after {
+    width: 100%;
+    transition: width 400ms ease-in-out;
 }
 
 .container1 {
@@ -110,29 +141,3 @@ body {
     border-radius: 80px;
     position: relative;
 }
-
-#inputCheck {
-    position: relative;
-    cursor: pointer;
-    padding-left: 28px;
-    line-height: 24px;
-    font-weight: 400;
-    min-height: 20px;
-    color: #939DA5
-}
-
-
-/* .container label {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-size: 1.75rem;
-    color: #444B59;
-}
-
-.container .name {
-    width: 250px;
-    height: 25px;
-    padding: 24px, 32px, 24px, 32px;
-    border: #789ADE 1.5px solid;
-    border-radius: 80px;
-} */
