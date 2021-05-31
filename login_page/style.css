@@ -148,6 +148,10 @@ body {
     position: relative;
 }
 
+.password {
+    position: relative;
+}
+
 #radio {
     margin: 20px 0;
 }
@@ -157,7 +161,6 @@ body {
     font-weight: bold;
     font-size: 0.9rem;
     color: #444B59;
-    position: relative;
 }
 
 button {
@@ -176,8 +179,13 @@ button:hover {
     filter: brightness(90%);
 }
 
-#visibility_off {
-    position: absolute;
-    top: -57px;
+.material-icons {
+    position: relative;
+    top: -50px;
     left: 38rem;
+    cursor: pointer;
+}
+
+#visibility_0 {
+    display: none;
 }
