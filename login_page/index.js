@@ -10,8 +10,3 @@ function show_password() {
         visibility_on.innerHTML = 'visibility_off'
     }
 }
-
-// visibility_on.addEventListener('click', function() {
-//     visibility_on.innerHTML = 'visibility_off';
-//     type_password.type = password;
-// })
