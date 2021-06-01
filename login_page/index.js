@@ -1,4 +1,4 @@
-let visibility_on = window.document.querySelector('.material-icons')
+let visibility_on = window.document.querySelector('#visibility_icons')
 let type_password = window.document.querySelector('.password')
 
 function show_password() {
