@@ -33,6 +33,7 @@ body {
 }
 
 .links li a {
+    color: var(--main-color);
     font-weight: 300;
     font-size: 100%;
     font-size: 1.25rem;
@@ -54,7 +55,8 @@ body {
     transition: width 400ms ease-in-out;
 }
 
-.body_dark {
+.body_dark,
+.body_dark .contact {
     background-color: black;
     color: var(--third-color);
 }
@@ -67,13 +69,14 @@ body {
 }
 
 .dark_container {
-    background-color: white;
+    background-color: black;
     width: 65px;
-    border: black 2px solid;
+    border: white 2px solid;
     border-radius: 20px;
 }
 
 #light_on {
+    color: black;
     transition: 1.2s;
     transform: translateX(0%);
     position: relative;
@@ -81,6 +84,7 @@ body {
 }
 
 #dark_on {
+    color: yellow;
     transition: 1.2s;
     transform: translateX(150%);
     cursor: pointer;
@@ -187,6 +191,10 @@ button {
 
 button:hover {
     filter: brightness(90%);
+}
+
+.body_dark #visibility_icons {
+    color: black;
 }
 
 #visibility_icons {
