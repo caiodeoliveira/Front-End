@@ -54,15 +54,18 @@ body {
     transition: width 400ms ease-in-out;
 }
 
-.theme_container {
+.body_dark {
+    background-color: black;
+}
+
+.light_container {
     background-color: yellow;
     width: 65px;
     border: white 2px solid;
     border-radius: 20px;
 }
 
-.dark_Background {
-    transition: 0.8s;
+.dark_container {
     background-color: white;
     width: 65px;
     border: black 2px solid;
