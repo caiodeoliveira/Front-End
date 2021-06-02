@@ -91,7 +91,7 @@ body {
 }
 
 .container1 {
-    margin: 100px auto;
+    margin: 45px auto;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
