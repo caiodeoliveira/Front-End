@@ -1,0 +1,858 @@
+@import'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap';
+@import'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+    --color-locksmit: rgb(255, 255, 0);
+    --color-monkey: #884502;
+}
+
+body {
+    background-color: black;
+    max-width: 1340px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1.5px var(--color-locksmit) solid;
+    align-items: center;
+}
+
+header nav {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.links a {
+    margin-left: 90px;
+}
+
+.monkey_image {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 90px;
+}
+
+.about {
+    color: var(--color-locksmit);
+    font-size: 25px;
+}
+
+.about:hover {
+    border-bottom: 2px var(--color-locksmit) solid;
+}
+
+.courses {
+    color: var(--color-locksmit);
+    font-size: 25px;
+}
+
+.courses:hover {
+    border-bottom: 2px var(--color-locksmit) solid;
+}
+
+.services {
+    color: var(--color-locksmit);
+    font-size: 25px;
+}
+
+.services:hover {
+    border-bottom: 2px var(--color-locksmit) solid;
+}
+
+.contact {
+    color: var(--color-locksmit);
+    font-size: 25px;
+}
+
+.contact:hover {
+    border-bottom: 2px var(--color-locksmit) solid;
+}
+
+.twentyfour_hours {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+
+
+/* End Header */
+
+.professional_img {
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+    width: 70px;
+    position: absolute;
+    top: 110px;
+    left: 185px;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.professional_name {
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 215px;
+    right: 0px;
+    left: 180px;
+}
+
+.client_public img {
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+    width: 70px;
+    position: absolute;
+    top: 110px;
+    right: 180px;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 15px;
+}
+
+.client_name {
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 205px;
+    right: 187px;
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.image_content {
+    border-radius: 30px;
+    margin-top: 80px;
+    border: white 5px solid;
+}
+
+.topics {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/*  Vertical Strokes  */
+
+.bar_one {
+    position: absolute;
+    height: 70px;
+    top: 88px;
+    left: 670px;
+    border-left: 3px var(--color-locksmit) solid;
+}
+
+.bar_two {
+    width: 1px;
+    height: 140px;
+    margin: -273px auto;
+    border-left: 3px var(--color-locksmit) solid;
+}
+
+.grid_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+}
+
+.grid_left a {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.grid_left a:hover {
+    transition: 700ms;
+    color: var(--color-locksmit);
+}
+
+.grid_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: flex-end;
+    gap: 100px;
+    position: absolute;
+    top: 280px;
+    right: 20px;
+}
+
+.grid_right a {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.grid_right a:hover {
+    transition: 700ms;
+    color: var(--color-locksmit);
+}
+
+
+/*  -----  About Page ----- */
+
+.enterprise_container {
+    text-align: center;
+    position: relative;
+}
+
+.enterprise_container h1 {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    max-width: 1100px;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.enterprise_container img {
+    width: 1300px;
+    height: 600px;
+}
+
+.profile_description {
+    text-align: center;
+}
+
+.profile_description img {
+    width: 300px;
+    border: var(--color-locksmit) 2px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.profile_description h1,
+.profile_description h2,
+.profile_description h3 {
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 40px;
+}
+
+.enterprise {
+    text-decoration: underline;
+    color: var(--color-monkey);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.enterprise:hover {
+    color: var(--color-locksmit);
+    transition: 800ms;
+}
+
+.footer_links {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.footer_links img {
+    margin-bottom: 20px;
+}
+
+.footer_links a {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 20px;
+}
+
+.twitter_footer,
+.instagram_footer,
+.facebook_footer {
+    font-weight: bold;
+}
+
+.instagram_footer:hover {
+    color: #c32aa3;
+    transition: color 800ms;
+}
+
+.twitter_footer:hover {
+    color: #00acee;
+    transition: color 800ms;
+}
+
+.facebook_footer:hover {
+    color: #3b5998;
+    transition: 800ms;
+}
+
+
+/*   Contacts Page   */
+
+.contact_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+.card1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border: var(--color-locksmit) 2px solid;
+    width: 500px;
+    height: 200px;
+}
+
+.card1 p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.card_info,
+.card_info label {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card1 a {
+    color: var(--color-monkey);
+}
+
+.card1 a:hover {
+    transition: 700ms;
+    color: var(--color-locksmit);
+}
+
+.email_contact,
+.telefone_contact {
+    color: white;
+}
+
+.card2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border: var(--color-locksmit) 2px solid;
+    width: 500px;
+    height: 200px;
+}
+
+.card2 p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.card2 label {
+    text-align: center;
+}
+
+.card2 button {
+    background-color: white;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card2 button:hover {
+    filter: brightness(90%);
+}
+
+
+/*  Courses Page  */
+
+.cards {
+    max-width: 400px;
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+
+.card {
+    border: var(--color-locksmit) 2px solid;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    padding: 0px 0px 40px 0px;
+}
+
+.card {
+    transition: 800ms;
+}
+
+.course_image_content {
+    border-radius: 20px;
+}
+
+.course_info {
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: 20px;
+}
+
+.course_name {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--color-monkey);
+    border-radius: 7px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.price {
+    background-color: var(--color-monkey);
+    margin-right: 300px;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 65px;
+}
+
+.duration {
+    background-color: var(--color-monkey);
+    margin-left: 300px;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    bottom: 5px;
+}
+
+.videocopy_classes {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copykey_class {
+    border: var(--color-locksmit) 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 118px;
+    left: 80px;
+}
+
+.copy_class {
+    border: var(--color-locksmit) 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 118px;
+    right: 80px;
+}
+
+
+/* Modal */
+
+.modal_Overlay {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    position: relative;
+    top: 15vh;
+    margin: 0 auto;
+}
+
+
+/* Modal.ACTIVE */
+
+.modal_Overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.close_modal {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+iframe {
+    width: 99.2%;
+    height: 94%;
+    border-radius: 20px;
+    position: absolute;
+    top: 22px;
+    left: 3px;
+}
+
+
+/*  Services Page  */
+
+.services_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 115px;
+}
+
+
+/*  Copy Services   */
+
+.copy_service_info {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.key_copy_list {
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.key_copy {
+    border-bottom: var(--color-locksmit) 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.yale_key_copy,
+.tetra_key_copy,
+.motorcycle_key_copy,
+.car_key_copy,
+.car_key_copy2 {
+    border: var(--color-locksmit) 2px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.yale_key_copy:hover {
+    background-color: var(--color-monkey);
+}
+
+.tetra_key_copy:hover {
+    background-color: var(--color-monkey);
+}
+
+.motorcycle_key_copy:hover {
+    background-color: var(--color-monkey);
+}
+
+.car_key_copy:hover {
+    background-color: var(--color-monkey);
+}
+
+.car_key_copy2:hover {
+    background-color: var(--color-monkey);
+}
+
+
+/*  Open Services    */
+
+.open_list {
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.open_service_info {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.open_services {
+    border-bottom: var(--color-locksmit) 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.open_soprano_lock,
+.open_stam_lock,
+.open_papaiz_lock,
+.open_silvana_lock,
+.open_lafonte_lock {
+    border: var(--color-locksmit) 2px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.open_stam_lock {
+    cursor: pointer;
+}
+
+.open_papaiz_lock {
+    cursor: pointer;
+}
+
+.open_silvana_lock {
+    cursor: pointer;
+}
+
+.open_lafonte_lock {
+    cursor: pointer;
+}
+
+.open_soprano_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_stam_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_papaiz_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_silvana_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_lafonte_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+
+/* Open service 2 */
+
+.open_list2 {
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.open_service_info2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.open_services2 {
+    border-bottom: var(--color-locksmit) 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.open_3f_lock,
+.open_aliança_lock,
+.open_haga_lock,
+.open_pado_lock,
+.open_imab_lock {
+    border: var(--color-locksmit) 2px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.open_3f_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_aliança_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_haga_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_pado_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_imab_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+
+/* Open list 3 */
+
+.open_list3 {
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.open_service_info3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.open_services3 {
+    border-bottom: var(--color-locksmit) 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.open_closet_lock,
+.open_motorcycletank,
+.open_papaiztetra_lock,
+.open_padlock,
+.open_stamhangs {
+    border: var(--color-locksmit) 2px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.open_closet_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_motorcycletank:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_papaiztetra_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_padlock:hover {
+    background-color: var(--color-monkey);
+}
+
+.open_stamhangs:hover {
+    background-color: var(--color-monkey);
+}
+
+
+/*  Confection Services   */
+
+.confection_list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.confection_service_info {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.confection_key_service {
+    border-bottom: var(--color-locksmit) 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.confection_yale_key,
+.confection_padlock_key,
+.confection_tetra_key,
+.confection_motorcycle_key,
+.confection_car_key {
+    border: var(--color-locksmit) 2px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.confection_yale_key:hover {
+    background-color: var(--color-monkey);
+}
+
+.confection_padlock_key:hover {
+    background-color: var(--color-monkey);
+}
+
+.confection_tetra_key:hover {
+    background-color: var(--color-monkey);
+}
+
+.confection_motorcycle_key:hover {
+    background-color: var(--color-monkey);
+}
+
+.confection_car_key:hover {
+    background-color: var(--color-monkey);
+}
+
+
+/*  Instalation Services  */
+
+.instalation_list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.instalation_service_info {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+}
+
+.instalation_lock_service {
+    border-bottom: var(--color-locksmit) 2px solid;
+    margin-bottom: 40px;
+}
+
+.instalation_overlap_lock,
+.instalation_external_lock,
+.instalation_internal_lock,
+.instalation_glassdoor_lock,
+.instalation_slidingdoor_lock {
+    border: 2px solid var(--color-locksmit);
+    margin-bottom: 10px;
+}
+
+.instalation_overlap_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.instalation_external_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.instalation_internal_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.instalation_glassdoor_lock:hover {
+    background-color: var(--color-monkey);
+}
+
+.instalation_slidingdoor_lock:hover {
+    background-color: var(--color-monkey);
+}
