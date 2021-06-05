@@ -44,7 +44,7 @@
 
                 <div class="container3">
                     <label for="member_password">Password</label>
-                    <input type="password" placeholder="**********" class="password">
+                    <input onload="remember_me()" type="password" placeholder="**********" class="password">
                     <span onclick="show_password()" class="material-icons" id="visibility_icons">
                         visibility_off
                     </span>
@@ -52,10 +52,10 @@
 
                 <div class="container4">
                     <label for="remember_me" class="input_radio_label">
-                        <input type="checkbox" name="remember_me" class="check">
+                        <input onload="remember_me()" type="checkbox" name="remember_me" class="check">
                         Remember - me
                     </label> <br>
-                    <button>Don't Remember</button>
+                    <button onclick="save_user()" type="button">Sign In</button>
                 </div>
             </div>
         </form>
